@@ -4,8 +4,11 @@
 * Autor: Ewerton Mendonça
 * Descrição:
 */
-require_once('modules/Addons.class.php');
-require_once('modules/Router.class.php');
+define("PATH_ROOT","/var/task/user/api/");
+
+
+require_once(PATH_ROOT . 'modules/Addons.class.php');
+require_once(PATH_ROOT . 'modules/Router.class.php');
 
 class Cody {
 
