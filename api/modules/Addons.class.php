@@ -19,6 +19,9 @@ class Addons {
 	public function load() {
         $path = getcwd() . DIRECTORY_SEPARATOR . 'addons';
 
+		echo getcwd();
+		exit();
+
 		$iter = new RecursiveIteratorIterator(
 				new RecursiveDirectoryIterator($path, RecursiveDirectoryIterator::SKIP_DOTS),
 				RecursiveIteratorIterator::SELF_FIRST,
