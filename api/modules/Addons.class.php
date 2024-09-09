@@ -17,10 +17,7 @@ class Addons {
 
 	// TODO: Verificar dependência entre plugins
 	public function load() {
-        $path = getcwd() . DIRECTORY_SEPARATOR . 'addons';
-
-		echo getcwd();
-		exit();
+        $path = getcwd() . DIRECTORY_SEPARATOR . 'api' . DIRECTORY_SEPARATOR . 'addons';
 
 		$iter = new RecursiveIteratorIterator(
 				new RecursiveDirectoryIterator($path, RecursiveDirectoryIterator::SKIP_DOTS),
