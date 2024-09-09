@@ -4,8 +4,8 @@
 * Autor: Ewerton Mendonça
 * Descrição:
 */
-require_once('modules/Addons.class.php');
-require_once('modules/Router.class.php');
+require_once('api/modules/Addons.class.php');
+require_once('api/modules/Router.class.php');
 
 class Cody {
 
