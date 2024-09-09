@@ -4,7 +4,7 @@
 * Autor: Ewerton Mendonça
 * Descrição: Addon que cria uma página inicial (padrão do sistema) e a página de erro 404.
 */
-require_once("api/addons/Addon.class.php");
+require_once("/var/task/user/api/addons/Addon.class.php");
 
 class StaticPages extends Addon {
     
